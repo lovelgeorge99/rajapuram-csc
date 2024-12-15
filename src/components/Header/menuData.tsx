@@ -14,26 +14,14 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 41,
-        title: "Tax Consultation",
-        path: "https://wa.me/919446652502",
-        newTab: true,
+        title: "Online Services",
+        path: "/online-services",
+        newTab: false,
       },
       {
         id: 42,
-        title: "Education Consultation",
-        path: "https://wa.me/919446652502",
-        newTab: false,
-      },
-      {
-        id: 43,
-        title: "Reservations Services",
-        path: "https://wa.me/919446652502",
-        newTab: false,
-      },
-      {
-        id: 44,
-        title: "Hotel Booking Services",
-        path: "https://wa.me/919446652502",
+        title: "Offline Services",
+        path: "/offline-services",
         newTab: false,
       },
     ],
